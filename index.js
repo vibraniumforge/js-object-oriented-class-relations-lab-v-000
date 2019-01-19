@@ -37,8 +37,8 @@ class Passenger {
     let y= this.trips().map(trip => {
       return trip.driver();
     })
-    console.log(x)
-    consol.log(y)
+    console.log("x=", x)
+    consol.log("y=",y)
   }
 }
 
