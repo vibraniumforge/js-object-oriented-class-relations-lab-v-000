@@ -33,9 +33,12 @@ class Passenger {
     })
   }
   drivers() {
-    return this.trips().map(trip => {
+    let x=this.trips()
+    let y= this.trips().map(trip => {
       return trip.driver();
     })
+    console.log(x)
+    consol.log(y)
   }
 }
 
